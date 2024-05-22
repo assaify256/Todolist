@@ -1,0 +1,37 @@
+.point {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #888;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.checkBox {
+  margin-right: 1rem;
+}
+
+.edit {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: darkcyan;
+  margin-right: 1rem;
+}
+
+.details {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: darkgreen;
+  margin-right: 1rem;
+}

@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+}
+
+.text {
+  margin-top: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.amount {
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.number {
+  padding: 0 0.7rem;
+  border: 2px solid #888;
+  border-radius: 10%;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.point {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #888;
+}
+
+input[type="checkbox"] {
+  margin-right: 1rem;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.edit {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color:darkcyan;
+    margin-right: 1rem;
+
+}
+
+
+.details {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color:darkgreen;
+    margin-right: 1rem;
+}
