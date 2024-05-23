@@ -45,6 +45,7 @@ const listSlice = createSlice({
   name: "list",
   initialState: {
     list: initialData.todoList,
+    isDone: initialData.todoList.isDone
   },
   reducers: {
     create: (state, action) => {
@@ -67,7 +68,7 @@ const listSlice = createSlice({
         }
       }
       state.list.splice(0, 1);
-    },
+    }, 
   },
 });
 
@@ -106,7 +107,7 @@ const reducers = {
 
 export const { editView } = todoSlice.actions;
 export const { get, post, put, closeEditor } = viewSlice.actions;
-export const { create, edit, remove } = listSlice.actions;
+export const { create, edit, remove, check } = listSlice.actions;
 export const {plus, minus} = listTypeSlice.actions;
 
 export default reducers;
