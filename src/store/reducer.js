@@ -67,7 +67,7 @@ const listSlice = createSlice({
           index = i;
         }
       }
-      state.list.splice(0, 1);
+      state.list.splice(index, 1);
     }, 
   },
 });
